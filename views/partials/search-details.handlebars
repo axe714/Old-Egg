@@ -1,22 +1,24 @@
 {{!-- <div class="categories-container">
     <div class="products-card-list">
         <div class="product-card">
-        <a style="text-decoration: none"href="/products/{{product_id}}">
-            <img src="{{product_img}}" alt="" class="card-image">
-            <div class="card-product-details">
-                <div class="product-title">
-                    <h4>{{product_name}}</h4>
+            <a style="text-decoration: none" href="/products/{{product_id}}">
+                <img src="{{product_img}}" alt="" class="card-image">
+                <div class="card-product-details">
+                    <div class="product-title">
+                        <h4>{{product_name}}</h4>
+                    </div>
+                    <p class="card-price">${{price}}</p>
                 </div>
-                <p class="card-price">${{price}}</p>
-            </div>
-        </a>
+            </a>
         </div>
     </div>
 </div> --}}
 
 <div class="sr-item-container">
-    <a style="text-decoration: none"href="/products/{{product_id}}" class="sr-item">
-        <img src="{{product_img}}" alt="" class="sr-image">
+    <a style="text-decoration: none" href="/products/{{product_id}}" class="sr-item">
+        <div class="sr-img-container">
+            <img src="{{product_img}}" alt="" class="sr-image">
+        </div>
         <div class="sr-item-details">
             <h2 class="sr-item-title">{{product_name}}</h2>
             <p class="sr-item-price">{{price}}</p>

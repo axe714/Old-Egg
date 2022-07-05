@@ -240,7 +240,7 @@ nav {
 .product-page-item {
   display: flex;
   gap: 3rem;
-  padding: 1rem 5rem 3rem;
+  padding: 3rem 10rem 3rem;
 }
 
 .product-image {
@@ -450,6 +450,40 @@ hr {
   border: 1px solid darkred;
   background-color: darkred;
   cursor: pointer;
+}
+
+/* Search Results Page */
+
+.serchResults-page-container {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.sr-list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sr-item-container {
+  padding: 1.5rem;
+}
+
+.sr-item-container a {
+  display: flex;
+  gap:2rem;
+
+}
+
+.sr-img-container {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.sr-item-container img {
+  width: 20rem;
+  padding: 1rem;
 }
 
 /* footer */
