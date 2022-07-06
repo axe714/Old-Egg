@@ -606,6 +606,8 @@ hr {
 
 /* Search Results Page */
 
+
+
 .serchResults-page-container {
   align-items: center;
   display: flex;
@@ -628,15 +630,51 @@ hr {
 
 }
 
+.search-results-card {
+  /* padding: 1.5rem 1.5rem 0.5rem; */
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  align-items: center;
+}
+
+.sr-item-container a:hover .view-details {
+  transform: scale(1);
+  transition: all .5s;
+  background-color: #FD7622;
+  border: none;
+  /* padding: 10px 38px; */
+  color: white;
+  /* border-radius: .5rem; */
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.view-details {
+  transform: scale(0);
+  transition: all .5s;
+  background-color: #FD7622;
+  border: none;
+  /* padding: 10px 38px; */
+  color: white;
+  /* border-radius: .5rem; */
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
 .sr-img-container {
-  padding: 1.5rem;
   background-color: white;
+  width: 25rem;
 }
 
 .sr-item-container img {
-  width: 20rem;
-  padding: 1rem;
+  /* width: 20rem; */
+  padding: 1.5rem;
 }
+
 
 .sr-item-details {
   color: black;

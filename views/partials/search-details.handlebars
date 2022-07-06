@@ -16,8 +16,11 @@
 
 <div class="sr-item-container">
     <a style="text-decoration: none" href="/products/{{product_id}}" class="sr-item">
-        <div class="sr-img-container">
-            <img src="{{product_img}}" alt="" class="sr-image">
+        <div class="search-results-card">
+            <div class="sr-img-container" id="hvr-ripple-out">
+                <img src="{{product_img}}" alt="" class="sr-image">
+            </div>
+            <button class="view-details">View Details</button>
         </div>
         <div class="sr-item-details">
             <h2 class="sr-item-title">{{product_name}}</h2>
