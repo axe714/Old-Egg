@@ -8,8 +8,9 @@
 - OldEgg utilizes both the front/back-end to provide a demo of an e-commerce website that sells electronics.
 
 ## Table Of Contents 📜
-* [Installation](##installation)
-* [Usage](##usage)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Technologies Used](#technologies-used)
 * [License](#license)
 * [Contribution Guidelines](#contribution-guidelines)
 * [Deployed Heroku Link](#heroku)
