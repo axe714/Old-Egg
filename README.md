@@ -55,6 +55,11 @@
     - Cart ID (primary key)
     - User ID (foreign Key)
     - Product ID (foreign Key)
+
+5. Wishlist
+    - Wishlist ID (primary key)
+    - User ID (foreign key)
+    - Product ID (foreign key)
 ```
 
 - The application utilizes handlebars to create a main layout that applies to several endpoints. The main handlebar layout consists of:
