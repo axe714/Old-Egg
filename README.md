@@ -194,7 +194,7 @@
 - All contributors are welcome! Please don't hesitate to contact me below to contribute to this project.
 
 ##  Heroku
-- [OldEgg Heroku](oldegg.herokuapp.com/)
+- [OldEgg Heroku](https://oldegg.herokuapp.com/)
 
 ##  Github Repository 
 - [OldEgg Repository](https://github.com/brianalegre/Project2)
