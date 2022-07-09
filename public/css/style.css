@@ -665,6 +665,12 @@ hr {
   width: 70%;
 }
 
+@media only screen and (max-width:970px ) {
+  .searchResults-page-container {
+    width: 100%;
+  }
+}
+
 .search-results-card {
   display: flex;
   flex-direction: column;
@@ -722,12 +728,25 @@ hr {
   height: 22rem;
 }
 
-.sr-item-details {
+.sr-item-box {
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 30rem;
+}
+
+.sr-details h3, b {
+  color: #cc4100;
+  /* text-decoration: underline; */
+}
+
+
+.price-stock p {
+  /* display: flex;
+  align-items: center; */
+  margin-block-start: 1rem;
+  margin-block-end: 1em;
 }
 
 /* footer */

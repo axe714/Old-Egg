@@ -6,10 +6,22 @@
             </div>
             <button class="view-details">View Details</button>
         </div>
-        <div class="sr-item-details">
-            <h2 class="sr-item-title">{{product_name}}</h2>
-            <h3 class="item-stock">Stock: {{stock}}</h3>
-            <p class="sr-item-price">${{price}}</p>
+        <div class="sr-item-box">
+            <h2>{{product_name}}</h2>
+            <div class="sr-details">
+                {{!-- <h3>Category</h3>
+                &nbsp;
+                <p class="sr-item-category">{{category.category_name}}</p>
+                &nbsp; --}}
+                <div class="price-stock">
+                    <h3>Price :</h3>
+
+                    <p class="product-price"><b>Price :</b>&nbsp;${{price}}</p>
+                    <h3>Stock :</h3>
+
+                    <p class="product-stock"><b>Stock :</b>&nbsp;{{stock}}</p>
+                </div>
+            </div>
         </div>
     </a>
 </div>
